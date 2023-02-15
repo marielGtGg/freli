@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Choisir Freli - Suggérer un lieu</title>
+		<link rel="stylesheet" href="../css/styles.css" media="screen">
+		<link rel="stylesheet" href="../css/impression.css" media="print">
+		<link rel="icon" href="../images/interface/favicon.svg" type="image/x-icon">
+		<script src="../node_modules/jquery/dist/jquery.min.js"></script>
+		<script src="../js/scripts.js"></script>
+    </head>
+    <body>
+		<div id="background-top" class="no-print"></div>
+		<div id="circle" class="no-print"></div>
+		<header>
+			<div class="top-nav">
+				<a id="main-logo" href="../index.html">
+					<img src="../images/interface/logo-fr.svg" alt="Logo Choisir Freli - Le virage que tu attendais">
+				</a>		
+				<a href="#" id="alt-linguistique" class="no-print" data-location-id="suggest">EN</a>	
+			</div>
+            <nav class="main-nav no-print">
+                <ul>
+                    <li><a href="index.html">Points d'intérêt</a></li>
+                    <li><a href="presentation.html">À propos</a></li>
+                    <li><a class="selected" href="#suggest-location-title">Suggérer un lieu</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h1 id="suggest-location-title">Suggérer un lieu</h1>
+            <div class="form-wrapper main-container">
+                <h2>Une petite perle de Frelighsburg à faire découvrir?</h2>
+                <h3>Partage-la avec nous!</h3>
+                <form action="http://jkorpela.fi/cgi-bin/echo.cgi" method="POST">
+                    <p>
+                    <label for="titre">Titre</label>
+                    <input type="text" name="titre" id="titre" size="72" required>
+                    </p>
+                    <p>
+                        <label for="accroche">Accroche</label>
+                        <textarea name="accroche" id="accroche" cols="72" rows="3" required></textarea>
+                    </p>
+                    <p>
+                        <label for="description">Description</label>
+                        <textarea name="description" id="description" cols="72" rows="10" required></textarea>
+                    </p>
+                    <p>
+                        <label for="image">Image</label>
+                        <input type="file" name="image" id="image" accept="image/*" capture="environment">
+                    </p>
+                    <p>
+                        <label for="clip-sonore">Clip audio</label>
+                        <input type="file" name="clip-sonore" id="clip-sonore" accept="audio/*" capture="environment">
+                    </p>
+                    <p>
+                        <label for="langue">Langue</label>
+                        <select name="langue" id="langue" required>
+                            <option value="">Sélectionnez une langue</option>
+                            <option value="fr" selected>Français</option>
+                            <option value="en">English</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="courriel">Courriel</label>
+                        <input type="email" name="courriel" id="courriel" size="72" required>
+                    </p>
+                    <p class="button no-print">
+                        <input type="reset" value="Effacer">
+                        <input type="submit" id="send" value="Envoyer">
+                    </p>
+                </form>              
+            </div>
+        </main>   
+		<footer>
+			<div class="inside">
+				<div class="contact">
+					<div class="spacer-left"></div>
+					<div class="spacer-right">
+						<img src="../images/interface/favicon.svg" alt="Logo de Choisir Freli" class="no-print">
+						<div class="content">
+							<h1>Contact</h1>	
+							<div class="link">
+								<a href="mailto:info@choisir-freli.ca">
+									<span class="icon-email"></span>info@choisir-freli.ca
+								</a>
+								<a href="tel:15145555555">
+									<span class="icon-tel"></span>1-514-555-5555
+								</a>	
+								<a href="https://goo.gl/maps/j9biryc4RgWZdv8AA">
+									<span class="icon-map"></span>Hotel de ville de Frelighsburg
+								</a>						
+								<div class="social-networks no-print">
+									<a href="#">
+										<span class="icon-facebook"></span>
+										<span class="hidden">Facebook</span>
+									</a>
+									<a href="#">
+										<span class="icon-twitter"></span>
+										<span class="hidden">Twitter</span>
+									</a>
+									<a href="#">
+										<span class="icon-instagram"></span>
+										<span class="hidden">Instagram</span>
+									</a>	
+								</div>
+							</div>		
+						</div>
+					</div>
+				</div>
+				<div class="credit">
+					<a href="https://www.flaticon.com/free-icons/facebook" title="facebook icons">Icônes créées par Freepik - Flaticon</a>
+					<p>© Choisir Freli - choisir-freli.ca</p>		
+				</div>	
+			</div>
+		</footer>  
+		<script>
+			jQuery(function($){
+    			$(function(){
+        			setAltLanguage()
+                    setRequired()
+				});
+			});
+		</script>
+    </body>
+</html>

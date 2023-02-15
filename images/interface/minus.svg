@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="200"
+   height="200"
+   viewBox="0 0 52.916664 52.916668"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="minus.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     units="px"
+     inkscape:zoom="3.865"
+     inkscape:cx="102.58732"
+     inkscape:cy="100"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer2" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="rounded"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:none">
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke-width:0.103431"
+       d="M 4.5301823,31.523028 C 2.2298883,31.221681 0.45524635,29.503943 0.06497435,27.200996 -0.34919465,24.75704 1.2561193,22.286273 3.7552323,21.521258 c 0.593925,-0.181808 1.5693,-0.18997 22.7030997,-0.18997 21.133802,0 22.109177,0.0082 22.703101,0.18997 2.499113,0.765015 4.104428,3.235782 3.690259,5.679738 -0.333799,1.969704 -1.688884,3.526126 -3.638543,4.179159 -0.544926,0.18252 -1.48531,0.191108 -22.341092,0.20402 -11.974722,0.0074 -22.0285657,-0.0201 -22.3418747,-0.06115 z"
+       id="path1059" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="square">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:round"
+       id="rect1133"
+       width="52.916668"
+       height="5.2916665"
+       x="-6.357829e-07"
+       y="23.8125" />
+  </g>
+</svg>

@@ -1,0 +1,16 @@
+{
+  "name": "circuit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mariel Gauthier-Grégoire",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "jquery-cycle2": "github:malsup/cycle2",
+    "mediaelement": "^4.2.16"
+  }
+}

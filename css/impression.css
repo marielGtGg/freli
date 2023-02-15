@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@200;400;600&family=Overlock:wght@900&display=swap');
+
+.no-print, .hidden:not(.is-printed) {
+    position: absolute;
+    left: -9999px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font: 400 100%/150% "Noto Sans Display", Helvetica, Arial, sans-serif;
+    color: #555;
+}
+
+body {
+    margin: 5vmin;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #00916e;
+    font-weight: 200;
+    font-size: 3rem;
+    line-height: 1.25em;
+    margin: .5em 0;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: #888;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.25em;
+    border-bottom: solid #888 1px;
+    margin: 0;  
+    display: inline-block;
+    break-after: avoid;
+}
+
+h3 {
+    font-family: "Overlock", "Noto Sans Display", Helvetica, Arial, sans-serif;
+    color: #00916e;
+    font-weight: 600;
+    font-size: 2.75rem;
+    line-height: 1em;
+    margin: .5em 0;
+    display: block;  
+    break-after: avoid;
+}
+
+p {
+    margin: 1em 0;
+}
+
+img {
+    width: 100%;
+    display: block;
+    break-inside: avoid;
+    padding: .5rem 0;
+}
+
+div.figure {
+    max-width: 50%;
+}
+
+figure {
+    margin: 0;
+}
+
+figcaption {
+    font-size: .5rem;
+    line-height: .5rem;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: #555;
+}
+
+ul {
+    list-style: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+div.figure {
+    float: right;
+    padding-left: .5rem;
+    padding-bottom: .5rem;
+}
+
+main li {
+    margin-top: 2rem;
+}
+
+#main-logo img {
+    width: 35%;
+}
+
+main div.content.center {
+    margin-top: 2rem;
+    padding-bottom: 5vmin;
+}
+
+main .inside.center {
+    padding: 0 5vmin;
+    margin: 0 auto;
+}
+
+main form {
+    margin-top: 5vmin;
+}
+
+main form label {
+    display: block;
+    break-after: avoid;
+}
+
+main form p {
+    break-inside: avoid;
+}
+
+main form input, main form textarea {
+    display: block;
+    width: 100%;
+}
+
+#image, #clip-sonore {
+    font-family: inherit;
+    color: inherit;
+}
+
+main form .required::after {
+    content: ' *';
+    color: #FF4949;
+}

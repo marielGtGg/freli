@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Choose Freli - About</title>
+		<link rel="stylesheet" href="../css/styles.css" media="screen">
+		<link rel="stylesheet" href="../css/impression.css" media="print">
+		<link rel="icon" href="../images/interface/favicon.svg" type="image/x-icon">
+		<script src="../node_modules/jquery/dist/jquery.min.js"></script>
+		<script src="../js/scripts.js"></script>
+	</head>
+    <body>
+		<div id="background-top" class="no-print"></div>
+		<div id="circle" class="no-print"></div>
+		<header>
+			<div class="top-nav">
+				<a id="main-logo" href="../index.html">
+					<img src="../images/interface/logo-en.svg" alt="Logo Choose Freli - The shift you're waiting for">
+				</a>		
+				<a href="#" id="alt-linguistique" class="no-print" data-location-id="presentation">FR</a>	
+			</div>
+            <nav class="main-nav no-print">
+                <ul>
+                    <li><a href="index.html">Points of Interest</a></li>
+                    <li><a class="selected" href="#presentation-title">About</a></li>
+                    <li><a href="suggest-location.html">Suggest a Location</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h1 id="presentation-title">About</h1>
+            <div class="grid-container background-color1 main-container">
+				<div class="figure">
+					<figure>
+						<img src="../images/pinacle.jpg" alt="The Pinacle seen from Pigeon Hill">                     
+						<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" display="block"  class="no-print">
+							<circle id="curve" cx="250" cy="250" r="250" fill="transparent" transform="scale(1,-1) translate(0,-500) rotate(-80,250,250)"/>
+							<text width="2" font-size="12" fill="#666">
+								<textPath xlink:href="#curve" >
+									&#169; The Pinacle seen from Pigeon Hill / Mariel Gauthier-Grégoire
+								</textPath>
+							</text>
+						</svg>								  
+						<figcaption class="hidden is-printed">&#169; The Pinacle seen from Pigeon Hill / Mariel Gauthier-Grégoire</figcaption>
+					</figure>	
+            	</div>	
+				<div class="title">
+					<p>Since I moved to Freli, I'm loving it. And I want you to come enjoy it with me. So, I show you my favourites, the little pearls that make Freli the coolest village in Quebec… nothing less!</p>
+					<p>Freli, it's people who love life and who love the land and what it offers us. There are small farms here and there, a farmer's market on Saturdays, a small primary school perched on a hill between the trees. It's an impromptu mini-putt party at the local restaurant, a Martha Wainwright show in a café the size of my hand, it's a weekday picnic by the Brochets River. Freli is a bit of all that, and a lot of possibilities, too.</p>
+					<p>Come by, you won't regret it.</p>	
+				</div>
+            </div>   
+        </main>    
+		<footer>
+			<div class="inside">
+				<div class="contact">
+					<div class="spacer-left"></div>
+					<div class="spacer-right">
+						<img src="../images/interface/favicon.svg" alt="Logo Choose Freli" class="no-print">
+						<div class="content">
+							<h1>Contact</h1>	
+							<div class="link">
+								<a href="mailto:info@choisir-freli.ca">
+									<span class="icon-email"></span>info@choisir-freli.ca
+								</a>
+								<a href="tel:15145555555">
+									<span class="icon-tel"></span>1-514-555-5555
+								</a>	
+								<a href="https://goo.gl/maps/j9biryc4RgWZdv8AA">
+									<span class="icon-map"></span>Frelighsburg Town Hall
+								</a>						
+								<div class="social-networks" class="no-print">
+									<a href="#">
+										<span class="icon-facebook"></span>
+										<span class="hidden">Facebook</span>
+									</a>
+									<a href="#">
+										<span class="icon-twitter"></span>
+										<span class="hidden">Twitter</span>
+									</a>
+									<a href="#">
+										<span class="icon-instagram"></span>
+										<span class="hidden">Instagram</span>
+									</a>	
+								</div>
+							</div>		
+						</div>
+					</div>
+				</div>
+				<div class="credit">
+					<a href="https://www.flaticon.com/free-icons/facebook" title="facebook icons"class="no-print">Icons created by Freepik - Flaticon</a>
+					<p>© Choisir Freli - choisir-freli.ca</p>		
+				</div>	
+			</div>
+		</footer>  
+		<script>
+			jQuery(function($){
+    			$(function(){
+        			setAltLanguage()
+				});
+			});
+		</script>
+    </body>
+</html>

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Choisir Freli - Points d'intérêt</title>
+		<link rel="stylesheet" href="../node_modules/mediaelement/build/mediaelementplayer.min.css">
+		<link rel="stylesheet" href="../css/styles.css" media="screen">
+		<link rel="stylesheet" href="../css/impression.css" media="print">
+		<link rel="icon" href="../images/interface/favicon.svg" type="image/x-icon">
+		<script src="../node_modules/jquery/dist/jquery.min.js"></script>
+		<script src="../node_modules/jquery-cycle2/build/jquery.cycle2.min.js"></script>
+		<script src="../node_modules/mediaelement/build/mediaelement-and-player.min.js"></script>
+		<script src="../js/scripts.js"></script>
+	</head>
+	<body>
+		<div id="background-top" class="no-print"></div>
+		<div id="circle" class="no-print"></div>
+		<header>
+			<div class="top-nav">
+				<a id="main-logo" href="../index.html">
+					<img src="../images/interface/logo-fr.svg" alt="Logo Choisir Freli - Le virage que tu attendais">
+				</a>		
+				<a href="#" id="alt-linguistique" class="no-print" data-location-id="index">EN</a>	
+			</div>
+            <nav class="main-nav no-print">
+                <ul>
+                    <li><a class="selected" href="#interest-point">Points d'intérêt</a></li>
+                    <li><a href="presentation.html">À propos</a></li>
+                    <li><a href="suggerer-lieu.html">Suggérer un lieu</a></li>
+                </ul>
+            </nav>
+        </header>
+		<main>
+			<h1 id="interest-point">Points d'intérêt</h1>
+			<div class="carrousel">
+				<button type="button" class="nav button-previous">
+					<span class="icon previous"></span>
+					<span class="hidden">Item précédent du carrousel</span>
+				</button>	
+				<button type="button" class="nav button-next">
+					<span class="icon next"></span>
+					<span class="hidden">Item suivant du carrousel</span>
+				</button>
+				<ul class="carrousel-main">
+					<li>
+						<div class="grid-container background-color1">
+							<div class="title">
+								<h2>Marché fermier</h2>
+								<h3>Le rendez-vous du samedi à ne pas manquer!</h3>
+							</div>	
+							<a class="show-hide" data-for="detail1"><span class="icon plus"></span><span class="hidden">Montrer les détails</span></a>
+							<div class="figure">
+								<figure>
+									<img src="../images/market-square.jpg" alt="Le Kiosque de Rizen - Marché fermier de Freli">
+									<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" display="block" class="no-print">
+										<circle id="curve" cx="250" cy="250" r="250" fill="transparent" transform="scale(1,-1) translate(0,-500) rotate(-80,250,250)"/>
+										<text width="2" font-size="12" fill="#666">
+											<textPath xlink:href="#curve" >
+												&#169; Le Kiosque de Rizen / Mariel Gauthier-Grégoire
+											</textPath>
+										</text>
+									</svg>								  
+									<figcaption class="hidden is-printed">&#169; Le Kiosque de Rizen / Mariel Gauthier-Grégoire</figcaption>
+								</figure>	
+							</div>
+							<div id="detail1" class="detail hidden">
+								<p>Durant tout l’été, les samedis matin, c’est au marché fermier que ça se passe. Sous le soleil ou sous la pluie, les agriculteurs et agricultrices du coin sont au rendez-vous pour faire découvrir leurs produits. Pain, fromages, fruits et légumes, viandes, spécialités asiatiques, miel, il y en a vraiment pour tous les goûts.</p>
+								<p>Freli et les environs, c’est une incroyable diversité de produits locaux et le samedi, toute la richesse du terroir se trouve concentrée au même endroit. Crois-moi, ça vaut le détour!</p>							
+								<audio src="../audio/market.mp3" controls class="no-print"></audio>	
+							</div>	
+						</div>
+					</li>
+					<li>
+						<div class="grid-container background-color2">
+							<div class="title">
+								<h2>Arboretum - École-O-Village</h2>
+								<h3>Faire la classe parmi les arbres, quoi de mieux?</h3>	
+							</div>	
+							<a class="show-hide" data-for="detail2"><span class="icon plus"></span><span class="hidden">Montrer les détails</span></a>
+							<div class="figure">
+								<figure>
+									<img src="../images/arbo-square.jpg" alt="L'école parmi les arbres">
+									<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" display="block" class="no-print">
+										<circle id="curve" cx="250" cy="250" r="250" fill="transparent" transform="scale(1,-1) translate(0,-500) rotate(-80,250,250)"/>
+										<text width="2" font-size="12">
+											<textPath xlink:href="#curve" >
+												&#169; L'école parmi les arbres / Mariel Gauthier-Grégoire
+											</textPath>
+										</text>
+									</svg>								  
+									<figcaption class="hidden is-printed">&#169; L'école parmi les arbres / Mariel Gauthier-Grégoire</figcaption>
+								</figure>	
+							</div>
+							<div id="detail2" class="detail hidden">
+								<p>À Freli, il n’y a qu’une petite école primaire, mais quelle école! L’École Saint-François-d'Assise est située dans un magnifique bâtiment patrimonial juché sur une colline. C’est un petit milieu de vie qui a bâti son projet éducatif autour des valeurs d’écoresponsabilité. À preuve, depuis 25 ans, des parents s’impliquent dans un projet hors du commun. Ils ont créé un splendide arboretum qui se transforme un peu chaque année.</p>
+								<p>C’est un formidable terrain d’exploration pour les enfants. Ils y cultivent un jardin et apprennent sur les arbres et la nature qui nous entoure. On y trouve même un petit chapiteau pour faire la classe en plein air. Sérieusement, que peut-on rêver de mieux pour nos petits cocos?</p>	
+								<audio src="../audio/arbo.mp3" controls class="no-print"></audio>	
+							</div>	
+						</div>
+					</li>
+					<li>
+						<div class="grid-container background-color3">
+							<div class="title">
+								<h2>Café Beat & Betterave</h2>
+								<h3>Les Louanges comme dans ton salon, ça te tente?</h3>	
+							</div>
+							<a class="show-hide" data-for="detail3"><span class="icon plus"></span><span class="hidden">Montrer les détails</span></a>
+							<div class="figure">
+								<figure>
+									<img src="../images/beat-square.jpg" alt="Café Beat & Betterave">
+									<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" display="block" class="no-print">
+										<circle id="curve" cx="250" cy="250" r="250" fill="transparent" transform="scale(1,-1) translate(0,-500) rotate(-80,250,250)"/>
+										<text width="2">
+											<textPath xlink:href="#curve">
+												&#169; Café Beat & Betterave / Mariel Gauthier-Grégoire
+											</textPath>
+										</text>
+									</svg>								  
+									<figcaption class="hidden is-printed">&#169; Café Beat & Betterave / Mariel Gauthier-Grégoire</figcaption>
+								</figure>	
+							</div>
+							<div id="detail3" class="detail hidden">
+								<p>Le Beat & Betterave, c’est un peu le cœur de Freli. Cette charmante petite maison convertie en café est le lieu par excellence pour rencontrer ses potes. Mais ce n’est pas qu’un super café pour aller relaxer ou se changer le télétravail de place. C’est aussi LA place pour aller voir des shows mémorables.</p>
+								<p>Dur à croire pour un si petit village, mais la liste des artistes qui ont fait leur tour au Beat est impressionnante! D’ailleurs, si tu veux un billet, tu es mieux de rester à l’affût sur les réseaux, ça part toujours comme des petits pains chauds! Psst, n'oublies pas de goûter leur fameux gin tonic à la betterave.</p>							
+								<audio src="../audio/beat.mp3" controls class="no-print"></audio>
+							</div>			
+						</div>
+					</li>
+				</ul>	
+			</div>
+		</main> 
+		<footer>
+			<div class="inside">
+				<div class="contact">
+					<div class="spacer-left"></div>
+					<div class="spacer-right">
+						<img src="../images/interface/favicon.svg" alt="Logo de Choisir Freli" class="no-print">
+						<div class="content">
+							<h1>Contact</h1>	
+							<div class="link">
+								<a href="mailto:info@choisir-freli.ca">
+									<span class="icon-email"></span>info@choisir-freli.ca
+								</a>
+								<a href="tel:15145555555">
+									<span class="icon-tel"></span>1-514-555-5555
+								</a>	
+								<a href="https://goo.gl/maps/j9biryc4RgWZdv8AA">
+									<span class="icon-map"></span>Hotel de ville de Frelighsburg
+								</a>						
+								<div class="social-networks" class="no-print">
+									<a href="#">
+										<span class="icon-facebook"></span>
+										<span class="hidden">Facebook</span>
+									</a>
+									<a href="#">
+										<span class="icon-twitter"></span>
+										<span class="hidden">Twitter</span>
+									</a>
+									<a href="#">
+										<span class="icon-instagram"></span>
+										<span class="hidden">Instagram</span>
+									</a>	
+								</div>
+							</div>		
+						</div>
+					</div>
+				</div>
+				<div class="credit">
+					<a href="https://www.flaticon.com/free-icons/facebook" title="facebook icons"class="no-print">Icônes créées par Freepik - Flaticon</a>
+					<p>© Choisir Freli - choisir-freli.ca</p>		
+				</div>	
+			</div>
+		</footer>  
+		<script>
+			jQuery(function($){
+    			$(function(){
+        			setAltLanguage()
+
+					$('.carrousel-main').cycle({
+						speed: 1000,
+						timeout:2000,
+						manualSpeed: 100,
+						slides: "li",
+						paused: true,
+						prev: '.button-previous',
+						next: '.button-next',
+						startingSlide: randomNumber(0,2)
+					});
+        
+			        setShowHideDetail()
+
+					$('audio').mediaelementplayer({
+						/*pluginPath: 'https://cdnjs.com/libraries/mediaelement/',
+						// this will allow the CDN to use Flash without restrictions
+						// (by default, this is set as `sameDomain`)
+						shimScriptAccess: 'always',*/
+						audioWidth: '100%'
+					});
+				});
+			});
+		</script>
+	</body>
+</html>
